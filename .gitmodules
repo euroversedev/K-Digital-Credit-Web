@@ -1,3 +1,24 @@
 [submodule "htmlcss-s01e02"]
 	path = htmlcss-s01e02
 	url = https://github.com/develup-official/htmlcss-s01e02.git
+[submodule "htmlcss-s01e01"]
+	path = htmlcss-s01e01
+	url = https://github.com/develup-official/htmlcss-s01e01.git
+[submodule "htmlcss-s01e03"]
+	path = htmlcss-s01e03
+	url = https://github.com/develup-official/htmlcss-s01e03.git
+[submodule "htmlcss-s01e04"]
+	path = htmlcss-s01e04
+	url = https://github.com/develup-official/htmlcss-s01e04.git
+[submodule "htmlcss-s01e05"]
+	path = htmlcss-s01e05
+	url = https://github.com/develup-official/htmlcss-s01e05.git
+[submodule "htmlcss-s01e06"]
+	path = htmlcss-s01e06
+	url = https://github.com/develup-official/htmlcss-s01e06.git
+[submodule "htmlcss-s01e07"]
+	path = htmlcss-s01e07
+	url = https://github.com/develup-official/htmlcss-s01e07.git
+[submodule "htmlcss-s01e08"]
+	path = htmlcss-s01e08
+	url = https://github.com/develup-official/htmlcss-s01e08.git
