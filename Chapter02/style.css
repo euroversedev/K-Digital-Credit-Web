@@ -1,0 +1,95 @@
+h1, h2, ul, p{
+    margin: 0;    /* 기본 설정 값을 없애야 나중에 원하는 스타일 적용하기 편함 */
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+body {
+    background-color: #666;
+    background-image: url(../htmlcss-s01e02/images/halloween-background.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+div{
+    background-color: white;
+    width: 800px
+    
+    /*가운데 정렬 방법 중 하나
+    margin-left: auto; margin-right: auto;
+    아래처럼 쇼트핸드(줄여쓰기) 가능, 상하단 0 좌우 auto*/
+    margin: 0 auto;
+}
+
+div.header{    /* div태그이면서 header클래스인 요소 선택 */
+    background-image: url(../htmlcss-s01e02/images/halloween-header-bg.png);
+    color: white;
+    height: 400px;
+    text-align: center;
+}
+
+.profile{
+    margin-top: 50px;
+}
+
+*.wrapper{    /* 별은 "모든"을 의미함. 생략 가능 */
+    width: 800px;
+    margin: 50px auto;
+    background-color: #ddd;
+}
+
+.footer{
+    background-color: #111;
+    color: #999;
+    padding: 10px 0;
+    text-align: center;
+    color: violet;
+    letter-spacing: 5px;
+    text-indent: 5px;
+}
+
+.header h1{ /* header 하위에 있는 모든 h1선택 */
+    color: orangered;
+    margin: 10px 0;
+}
+
+.header p{
+    background-color: black;
+    color: #888;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contents{
+    background-color: #ddd;
+}
+
+.section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(../htmlcss-s01e02/images/icon-information.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;    /* 오른쪽 기준 20만큼 떨어짐*/
+}
+
+.section h2{
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.section li{
+    padding: 5px 10px 4px;
+    border-left: 5px solid #ddd;
+}
+
+.section li:hover{
+    color: orangered;
+    border-color: orangered;
+}
